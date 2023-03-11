@@ -1,0 +1,100 @@
+
+
+img {
+    position: relative;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 26px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em black;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.profile-desc {
+    font-size: 19px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em black;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.links {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    position: relative;
+    background: #FBFBFB;
+}
+
+a {
+    text-decoration: none;
+    color: #D4275B;
+    transition: color 1s;
+}
+
+.bottom-text {
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+    position: relative;
+}
+
+a:hover {
+    color: black;
+    background: #FBFBFB;
+}
+
+.link1:hover {
+    color: #D4275B;
+    border: 2px solid #D4275B;
+}
+
+.link2:hover {
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+
+.link3:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+.link4:hover {
+    color: mediumpurple;
+    border: 2px solid mediumpurple;
+}
+
+.background {
+    right: -600px;
+    bottom: -1000px;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(8px) brightness(30%);
+}
+
